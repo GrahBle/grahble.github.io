@@ -288,25 +288,24 @@
   <span class="eyebrow">Selected Work</span>
   <h2>Projects</h2>
 
-  <!-- Project 1: Capstone (work in progress) -->
+  <!-- Project 1: Capstone -->
   <div class="project">
     <div class="project-head">
-      <!-- EDIT: your capstone's real name — this isn't on your resume yet since it's still in progress -->
-      <h3>[Capstone Project Name]</h3>
-      <span class="status wip">In progress</span>
+      <h3>Diet and Disease in the UK</h3>
+      <!-- EDIT: flip back to class="status wip">In progress</span> if the capstone isn't actually done yet — I set this to Complete since your file is titled "Final Poster" -->
+      <span class="status done">Complete</span>
     </div>
     <div class="stack">
-      <!-- EDIT: real stack -->
-      <span>[language]</span><span>[framework]</span><span>[tool]</span>
+      <span>Python</span><span>scikit-learn</span><span>pandas</span><span>PCA / clustering</span>
     </div>
     <dl class="fields">
-      <dt>Problem</dt><dd>[What problem is this solving, and for whom?]</dd>
-      <dt>Approach</dt><dd>[Your current approach / architecture, briefly.]</dd>
-      <dt>Status</dt><dd>[What's done so far, what's next.]</dd>
+      <dt>Problem</dt><dd>Whether a rising rate of plant-based eating in the UK correlates with a decreasing risk of high LDL cholesterol five years later — with team member Sam Cooper, for DATA 510 at Willamette University.</dd>
+      <dt>Approach</dt><dd>Used principal component analysis and k-means clustering on 27 years of UK household diet data (~190,000 households) to identify dietary patterns, then ran a cross-correlation time-lag analysis against national LDL cholesterol risk rates from the Global Burden of Disease study.</dd>
+      <dt>Result</dt><dd>A plant-based dietary cluster grew from under 10% to over 40% of households over the study period. Its rise correlated with declining LDL cholesterol risk at a 5-year lag (Pearson r over 0.6, above 99% significance).</dd>
+      <dt>Learned</dt><dd>How to validate a time-lagged correlation rigorously enough to support a public-health recommendation, while being upfront about what population-level, self-reported data can't prove about causation.</dd>
     </dl>
     <div class="project-links">
-      <!-- EDIT: link to repo/write-up if you have one yet -->
-      <a href="#" target="_blank" rel="noopener">Repo ↗</a>
+      <a href="https://github.com/wu-msds-capstones/data510-data-science-capstone-2026-project-writeup-capstone_writeup" target="_blank" rel="noopener">Repo ↗</a>
     </div>
   </div>
 
